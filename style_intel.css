@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#navbar{
+    height: 70px;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.separator{
+    width: 350px;
+}
+
+#brand{
+    background-color: #03a9f4;
+    height: 70px;
+    width: 70px;
+}
+
+#navlist{
+    width: 39vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#navlist li{
+    margin: auto;
+    padding: auto;
+}
+
+#navlist a{
+    color: #0071c5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    font-weight: bolder;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#user-icon{
+    color: #0071c5;
+}
+#searchbar{
+    color: #0071c5;
+    display: flex;
+
+}
+
+.input-search{
+    border: 0px;
+}
+
+#lang{
+    font-size: small;
+    color: #0071c5;
+}
+
+#homeflex{
+    background-image: url('/Intel\ clone/data_intel/homeflexback.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#homeflexmain{
+    height: fit-content;
+}
+.fleximg{
+    position:relative;
+    left: 590px;
+    top: -350px;
+    height: 367px;
+    width: 50%;
+}
+
+#homeflexinfo{
+    background-color: #0071c5;
+    position: relative;
+    left: 130px;
+    top: -696px;
+    height: 340px;
+    width: 460px;
+}
+
+.square{
+    position: relative;
+    top: -696px;
+    left: 90px;
+    background-color: #1b9bfd;
+    height: 40px;
+    width: 40px;
+}
+.flexinfo{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+#homeflexinfo a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+#homeflexinfo button{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: #0071c5;
+    background-color: white;
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#homebody{
+    height:800px;
+    width: 99vw;
+}
+
+#pagelinks{
+    height: 500px;
+    width: 99vw;
+}
