@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
     margin: 0px;
@@ -131,7 +132,71 @@
     width: 99vw;
 }
 
-#pagelinks{
-    height: 500px;
+#main-footer{
+    height: 390px;
     width: 99vw;
+    display: flex;
+    background-color: #e7e7e7;
+}
+
+#footer-homebutton{
+    width: 65vw;
+}
+
+#footer-homebutton img{
+    height: 85px;
+    margin: 150px 0px 0px 100px;
+}
+
+#intel-links{
+    height: 30%;
+    display: flex;
+}
+
+#intel-links ul{
+    display: flex;
+    flex-wrap:wrap;
+    width: 90%;
+    height: 60%;
+    margin: 45px auto 0px 0px;
+    padding: auto;
+}
+
+#intel-links ul a{
+    height: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    color: black;
+    margin: 0px 15px 0px 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#social-links{
+    height: 20%;
+    margin: auto;
+}
+
+#social-links i{
+    margin: auto;
+    padding: auto;
+}
+
+#social-links ul{
+    display: flex;
+}
+
+#social-links ul li{
+    list-style: none;
+    margin: auto 40px auto 0px;
+}
+
+#social-links ul li a{
+    color: black;
+    margin: auto;
+}
+
+#copyrights-links{
+    height: 50%;
 }
